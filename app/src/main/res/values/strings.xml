@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">CustomListView</string>
+    <string name="registrar">Registrar Carros</string>
+    <string name="listar">Listar Carros</string>
+    <string name="reportar">Reportes</string>
+    <string name="RegistroCarros">Registro de Carros</string>
+    <string name="Placa">Placa</string>
+    <string name="Marca">Marca</string>
+    <string name="Modelo">Modelo</string>
+    <string name="Color">Color</string>
+    <string name="Bmw">Bmw</string>
+    <string name="Mazda">Mazda</string>
+    <string name="Honda">Honda</string>
+    <string name="modelo1">2017</string>
+    <string name="modelo2">2016</string>
+    <string name="modelo3">2015</string>
+    <string name="Color1">Negro</string>
+    <string name="Color2">Blanco</string>
+    <string name="Color3">Fucsia</string>
+    <string name="Precio">Precio</string>
+    <string name="Guardar">Guardar</string>
+    <string name="Borrar">Borrar</string>
+    <string name="registrados">Carros Registrados</string>
+    <string name="carrocaro">Por Marca</string>
+    <string name="carrobarato">Por Color</string>
+    <string name="borrar2">Borrar</string>
+    <string name="ErrorPlaca">Digite la Placa</string>
+    <string name="ErrorPrecio">Digite el Precio</string>
+    <string name="Buscar">Buscar</string>
+    <string name="nombreM">El numero de Carros por Marca es: </string>
+    <string name="nombreC">El numero de Carros por Color es: </string>
+    <string name="Fucsia">Fucsia</string>
+    <string name="Negro">Negro</string>
+    <string name="Blanco">Blanco</string>
+    <string-array name="opciones2">
+        <item>@string/registrados</item>
+        <item>@string/carrocaro</item>
+        <item>@string/carrobarato</item>
+    </string-array>
+    <string-array name="opciones">
+        <item>@string/registrar</item>
+        <item>@string/listar</item>
+        <item>@string/reportar</item>
+    </string-array>
+<string-array name="coloreses">
+    <item>@string/Fucsia</item>
+    <item>@string/Negro</item>
+    <item>@string/Blanco</item>
+</string-array>
+    <string-array name="marcas">
+        <item>@string/Bmw</item>
+        <item>@string/Mazda</item>
+        <item>@string/Honda</item>
+    </string-array>
+    <string-array name="modelos">
+        <item>@string/modelo1</item>
+        <item>@string/modelo2</item>
+        <item>@string/modelo3</item>
+    </string-array>
+    <string-array name="colores">
+        <item>@string/Color1</item>
+        <item>@string/Color2</item>
+        <item>@string/Color3</item>
+    </string-array>
+
+</resources>

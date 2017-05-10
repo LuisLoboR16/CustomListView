@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CustomListView</string>
+    <string name="Blanco">White</string>
+    <string name="Bmw">Bmw</string>
+    <string name="Borrar">Delete</string>
+    <string name="Buscar">Search</string>
+    <string name="Color">Color</string>
+    <string name="Color1">Black</string>
+    <string name="Color2"></string>
+    <string name="ErrorPlaca">Write the plaque</string>
+    <string name="ErrorPrecio">Write Price</string>
+    <string name="Fucsia">Pink</string>
+    <string name="Guardar">Save</string>
+    <string name="Modelo">Model</string>
+    <string name="Negro">Black</string>
+    <string name="reportar">Report</string>
+    <string name="registrar">Register Cars</string>
+    <string name="registrados">Cars Registered</string>
+    <string name="nombreM">The numbers of car from Mark</string>
+    <string name="nombreC">The number of cars from colors is</string>
+    <string name="carrobarato">Per Color</string>
+    <string name="carrocaro">Per Mark</string>
+</resources>

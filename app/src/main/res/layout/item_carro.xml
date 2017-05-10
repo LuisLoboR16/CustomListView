@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            app:srcCompat="@drawable/img3"
+            android:id="@+id/imgFoto"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imgFoto"
+            android:layout_toEndOf="@+id/imgFoto"
+            android:layout_marginLeft="19dp"
+            android:layout_marginStart="19dp"
+            android:id="@+id/txtPlaca"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtPlaca"
+            android:layout_alignLeft="@+id/txtPlaca"
+            android:layout_alignStart="@+id/txtPlaca"
+            android:id="@+id/txtMarca"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtMarca"
+            android:layout_alignLeft="@+id/txtMarca"
+            android:layout_alignStart="@+id/txtMarca"
+            android:id="@+id/txtModelo"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtModelo"
+            android:layout_alignLeft="@+id/txtModelo"
+            android:layout_alignStart="@+id/txtModelo"
+            android:id="@+id/txtColor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtColor"
+            android:layout_alignLeft="@+id/txtColor"
+            android:layout_alignStart="@+id/txtColor"
+            android:id="@+id/txtPrecio" />
+
+    </RelativeLayout>
+</LinearLayout>
